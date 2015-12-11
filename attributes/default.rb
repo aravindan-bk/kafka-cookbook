@@ -73,10 +73,6 @@ default.kafka.manage_user = true
 default.kafka.group = 'kafka'
 
 #
-# Shall the cookbook create the node.kafka.group
-default.kafka.manage_group = true
-
-#
 # JVM heap options for Kafka.
 default.kafka.heap_opts = '-Xmx1G -Xms1G'
 
